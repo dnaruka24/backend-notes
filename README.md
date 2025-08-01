@@ -19,6 +19,7 @@ These notes are meant for revision and tracking my progress.
 - Day 4: Routing in Express  
 - Day 5: MongoDB Basics  
 - Day 6: Mongoose Schema & Model
+- Day 7: .env
 
 *(More topics will be added as I continue learning.)*
 
