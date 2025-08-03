@@ -20,6 +20,8 @@ These notes are meant for revision and tracking my progress.
 - Day 5: MongoDB Basics  
 - Day 6: Mongoose Schema & Model
 - Day 7: .env
+- Day 8: Middleware
+- Day 9: Authentication(register, login)
 
 *(More topics will be added as I continue learning.)*
 
