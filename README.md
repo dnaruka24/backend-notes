@@ -22,6 +22,7 @@ These notes are meant for revision and tracking my progress.
 - Day 7: .env
 - Day 8: Middleware
 - Day 9: Authentication(register, login)
+- Day 10: JWT and Cookie handling
 
 *(More topics will be added as I continue learning.)*
 
