@@ -23,6 +23,7 @@ These notes are meant for revision and tracking my progress.
 - Day 8: Middleware
 - Day 9: Authentication(register, login)
 - Day 10: JWT and Cookie handling
+- Day 11: project-Caption_Generator
 
 *(More topics will be added as I continue learning.)*
 
