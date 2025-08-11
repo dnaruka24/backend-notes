@@ -24,6 +24,8 @@ These notes are meant for revision and tracking my progress.
 - Day 9: Authentication(register, login)
 - Day 10: JWT and Cookie handling
 - Day 11: project-Caption_Generator
+- Day 12: Contollers and Hashing
+
 
 *(More topics will be added as I continue learning.)*
 
