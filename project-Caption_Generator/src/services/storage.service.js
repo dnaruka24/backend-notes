@@ -6,3 +6,13 @@ const imagekit = new ImageKit({
     urlEndpoint : process.env.IMAGEKIT_URL_ENDPOINT
 });
 
+async function uploadFile(file, filename) {
+    const response = await imagekit.upload({
+        file: file,
+        fileName: filename,
+        folder: "caption-generator"
+    })
+    return response
+}
+
+module.exports = uploadFile;
