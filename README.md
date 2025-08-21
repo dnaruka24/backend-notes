@@ -28,6 +28,7 @@ These notes are meant for revision and tracking my progress.
 - Day 14: multer and postController
 - Day 15: AI Integration(to generate captions for images using GoogleGenAI)
 - Day 16: Storage Service(to upload images to ImageKit)
+- Day 17: Started project-2(Chat GPT)
 
 
 *(More topics will be added as I continue learning.)*
