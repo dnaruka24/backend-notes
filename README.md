@@ -13,22 +13,24 @@ These notes are meant for revision and tracking my progress.
 
 ### ✅ Topics Covered So Far
 
-- Day 1: Node.js Basics  
-- Day 2: Modules & Built-in Libraries  
-- Day 3: Express.js Introduction  
-- Day 4: Routing in Express  
-- Day 5: MongoDB Basics  
-- Day 6: Mongoose Schema & Model
-- Day 7: .env
-- Day 8: Middleware
-- Day 9: Authentication(register, login)
-- Day 10: JWT and Cookie handling
-- Day 11: project-Caption_Generator
-- Day 12: Contollers and Hashing
-- Day 14: multer and postController
-- Day 15: AI Integration(to generate captions for images using GoogleGenAI)
-- Day 16: Storage Service(to upload images to ImageKit)
-- Day 17: Started project-2(Chat GPT)
+- Node.js Basics  
+- Modules & Built-in Libraries  
+- Express.js Introduction  
+- Routing in Express  
+- MongoDB Basics  
+- Mongoose Schema & Model
+- .env
+- Middleware
+- Authentication(register, login)
+- JWT and Cookie handling
+- project-Caption_Generator
+- Contollers and Hashing
+- multer and postController
+- AI Integration(to generate captions for images using GoogleGenAI)
+- Storage Service(to upload images to ImageKit)
+- Socket.io
+- Socket.io middleware
+- 
 
 
 *(More topics will be added as I continue learning.)*
