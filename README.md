@@ -23,6 +23,7 @@ These notes are meant for revision and tracking my progress.
 - Middleware
 - Authentication(register, login)
 - JWT and Cookie handling
+- Imagekit
 - project-Caption_Generator
 - Contollers and Hashing
 - multer and postController

@@ -2,6 +2,7 @@ const { Server } = require("socket.io");
 const cookie = require("cookie");
 const jwt = require("jsonwebtoken");
 const userModel = require("../model/user.model");
+const aiServices = require("../services/ai.service")
 
 function socketServer(httpServer) {
     const io = new Server(httpServer, {})
@@ -23,8 +24,14 @@ function socketServer(httpServer) {
     })
 
     io.on("connection", (socket) => {
-        socket.on("ai-message", (messagePayload) => {
+        socket.on("ai-message",async (messagePayload) => {
             console.log("Received ai-message:", messagePayload);
+
+            const response = await aiServices.generateResponse(messagePayload.content)
+            socket.emit("ai-response", {
+                content: response,
+                chat: messagePayload.chat
+            })
         })
     })
 }
