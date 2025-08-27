@@ -24,7 +24,15 @@ function socketServer(httpServer) {
     })
 
     io.on("connection", (socket) => {
-        socket.on("ai-message",async (messagePayload) => {
+        socket.on("ai-message", async (messagePayload) => {
+
+            /*
+            messagePayload = {
+                chat: chatId,
+                content: message text content
+                }
+            */
+
             console.log("Received ai-message:", messagePayload);
 
             const response = await aiServices.generateResponse(messagePayload.content)
