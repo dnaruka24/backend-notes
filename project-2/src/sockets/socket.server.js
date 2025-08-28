@@ -43,7 +43,14 @@ function socketServer(httpServer) {
                 role: "user"
             })
 
-            const response = await aiServices.generateResponse(messagePayload.content)
+            const chatHistory = (await messageModel.find({ chat: messagePayload.chat }).sort({ createdAt: -1 }).limit(10).lean()).reverse();            
+
+            const response = await aiServices.generateResponse(chatHistory.map(item => {
+                return {
+                    role: item.role,
+                    parts: [{ text: item.content }]
+                }
+            }))
 
             await messageModel.create({
                 user: socket.user._id,
@@ -51,7 +58,7 @@ function socketServer(httpServer) {
                 content: response,
                 role: "model"
             })
-            
+
             socket.emit("ai-response", {
                 content: response,
                 chat: messagePayload.chat
