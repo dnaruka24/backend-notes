@@ -31,7 +31,8 @@ These notes are meant for revision and tracking my progress.
 - Storage Service(to upload images to ImageKit)
 - Socket.io
 - Socket.io middleware
-- 
+- Vector database and Pinecone
+- Vector embeddings
 
 
 *(More topics will be added as I continue learning.)*
