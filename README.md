@@ -33,6 +33,8 @@ These notes are meant for revision and tracking my progress.
 - Socket.io middleware
 - Vector database and Pinecone
 - Vector embeddings
+- Short term memory
+- Long term memory
 
 
 *(More topics will be added as I continue learning.)*
