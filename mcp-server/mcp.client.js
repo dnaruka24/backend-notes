@@ -23,6 +23,8 @@ const client = new Client({
 
 await client.connect(transport);
 
+//listTools method se mcp server jitne bhi tools client ko provide kar raha hai uska pata laga skte hai.
+
 client.listTools().then(async response => {
     response.tools.forEach(tool => {
         tools.push({
@@ -59,4 +61,3 @@ client.listTools().then(async response => {
     })
 
 })
-//listTools method se mcp server jitne bhi tools client ko provide kar raha hai uska pata laga skte hai.
