@@ -35,6 +35,7 @@ These notes are meant for revision and tracking my progress.
 - Vector embeddings
 - Short term memory
 - Long term memory
+- MCP server
 
 
 *(More topics will be added as I continue learning.)*
